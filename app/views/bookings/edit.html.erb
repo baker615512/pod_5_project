@@ -1,0 +1,6 @@
+<h1>Edit Booking</h1>
+<%=form_for @booking do |f|%>
+  <%=f.label :start_date%>
+  <%=f.date_field :start_date%>
+  <%=f.submit%>
+<%end%>
